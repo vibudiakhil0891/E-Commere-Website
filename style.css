@@ -1,0 +1,31 @@
+body {
+  background-color: lightyellow;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  height: 100px;
+}
+
+p {
+  color: black;
+  font-size: 18px;
+}
+body {
+  background-color: aqua;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll; /* or 'fixed' if you want it to stay still */
+}
+ button {
+text-align: left;
+
+}
+ .button.open {
+  
+ position: fixed;
+ }
+

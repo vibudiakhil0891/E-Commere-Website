@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuppayapalem Village</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Kuppayapalem Village</h1>
+    <p><b>Dakkili Mandal, Tirupati District (previously Nellore District)</b><br>
+    Pincode: 524134</p>
+  </header>
+
+  <section class="about">
+    <h2>About Our Village</h2>
+    <p>
+      Kuppayapalem is a peaceful and culturally rich village in Dakkili Mandal, Tirupati District. 
+      Surrounded by lush green fields and friendly people, it holds a deep history of unity, 
+      tradition, and agricultural heritage. The villagers take pride in their festivals, 
+      local temples, and the simplicity of rural life that defines true happiness.
+    </p>
+  </section>
+
+  <section class="upload">
+    <h2>Upload Your Village Memories</h2>
+    <input type="file" id="imageUpload" accept="image/*"><br>
+    <input type="text" id="imageTitle" placeholder="Enter Image Title"><br>
+    <button id="uploadBtn">Upload Image</button>
+    <p id="uploadMsg"></p>
+  </section>
+
+  <section>
+    <a href="gallery.html" class="gallery-link">View Gallery</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kuppayapalem Village | Designed by Buddy & Akhil</p>
+  </footer>
+
+  <!-- Firebase SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.11.1/firebase-storage.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
